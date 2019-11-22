@@ -385,6 +385,14 @@ padding-top: 40px;
   display: table;
   clear:both;
 }
+.hub-section h3{
+  color: #33475b;
+  font-size: 20px;
+  text-align: center;
+}
+.hub-section p{
+
+}
 
 .marketing-hub,
 .sales-hub,
@@ -392,11 +400,12 @@ padding-top: 40px;
   float: left;
   height: 650px;
   width: 30%;
+  margin: 0 auto;
 }
 
 .sales-hub{
   color: red;
-  padding: 0 5px;
+  margin: 0 5%;
   /* float: left;
   width: 30%;
   height: 650px; */
@@ -411,4 +420,11 @@ padding-top: 40px;
 
 .marketing-hub{
   color: brown;
+}
+
+.marketing-hub img,
+.sales-hub img,
+.service-hub img{
+  padding: 20px 35px;
+  height: 200px;
 }
