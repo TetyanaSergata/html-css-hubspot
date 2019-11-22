@@ -343,15 +343,24 @@ body{
 }
 
 .crm-title p,
-.crm-title li {
-  line-height: 20px;
+.crm-title li,
+.hub-section p,
+.marketing-features li{
   color: #33475b;
   font-size: 14px;
-  padding-bottom: 35px;
+
 
 }
 
-.crm-title h5{
+.crm-title p,
+.crm-title li,
+.hub-section p{
+  line-height: 20px;
+  padding-bottom: 35px;
+}
+
+.crm-title h5,
+.hub-section h5{
   text-transform: uppercase;
   font-size: 13px;
   color: #33475b;
@@ -367,7 +376,8 @@ body{
   padding: 0 5px;
 }
 
-.crm-title li .orange{
+.crm-title li .orange,
+.marketing-features li .orange{
   color: #ff7a59;
 }
 
@@ -401,10 +411,11 @@ padding-top: 40px;
   height: 650px;
   width: 30%;
   margin: 0 auto;
+  background-color: white;
+  padding: 15px;
 }
 
 .sales-hub{
-  color: red;
   margin: 0 5%;
   /* float: left;
   width: 30%;
@@ -412,19 +423,53 @@ padding-top: 40px;
 }
 
 .service-hub{
-  color: blue;
   /* float: left;
   width: 30%;
   height: 650px; */
 }
 
-.marketing-hub{
-  color: brown;
+.marketing-hub h3,
+.sales-hub h3,
+.service-hub h3{
+  padding-bottom: 15px;
 }
 
 .marketing-hub img,
 .sales-hub img,
 .service-hub img{
-  padding: 20px 35px;
+  padding: 20px 15px;
   height: 200px;
+}
+
+
+.marketing-hub p,
+.sales-hub p{
+  padding-bottom: 55px;
+}
+
+.marketing-features,
+.sales-features,
+.service-features{
+  height: 230px;
+  border-top: 1px solid lightgrey;
+  padding: 30px 0;
+}
+
+.marketing-features h5,
+.sales-features h5,
+.service-features h5{
+  text-align: center;
+
+}
+
+.marketing-features ul,
+.sales-features ul,
+.service-features ul{
+  list-style: none;
+}
+
+.marketing-features li,
+.sales-features li,
+.service-features li{
+  line-height: 28px;
 }
