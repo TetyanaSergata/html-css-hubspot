@@ -245,7 +245,7 @@ body{
 
 .container-main{
   width: 65%;
-  height: 1000px;
+  height: 1400px;
   margin: 0 auto;
   background-color: pink;
 }
@@ -286,7 +286,7 @@ body{
 
 .crm-container{
   width: 80%;
-  height: 300px;
+  height: 280px;
   margin: 0 auto;
   /* background-color: green; */
 }
@@ -300,7 +300,7 @@ body{
 .crm-image{
   float: left;
   width: 35%;
-  height: 300px;
+  height: 280px;
   /* background-color: green; */
 
 }
@@ -308,7 +308,7 @@ body{
 .crm-text {
   float: right;
   width: 65%;
-  height: 300px;
+  height: 280px;
   background-color: lightblue;
 }
 
@@ -369,4 +369,45 @@ body{
 
 .crm-title li .orange{
   color: #ff7a59;
+}
+
+/* Hub section */
+.hub-section{
+width: 80%;
+/* width: calc(100% / 3) */
+height: 650px;
+margin: 0 auto;
+background-color: lightgrey;
+padding-top: 40px;
+}
+
+.hub-section::after{
+  content: "";
+  display: table;
+  clear:both;
+}
+
+.marketing-hub{
+  float: left;
+/* .sales-hub,
+.service-hub{ */
+  height: 650px;
+  width: 33%;
+  width: 80%;
+  color: red;
+}
+
+.sales-hub{
+  float: left;
+  width: 33%;
+  height: 650px;
+  width: 80%;
+
+
+}
+.service-hub{
+  float: left;
+  width: 33%;
+  height: 650px;
+  width: 80%;
 }
