@@ -98,7 +98,8 @@ body{
 }
 
 .header-button-right .orange-button,
-.first-title a{
+.first-title a,
+.crm-button a{
   color: white;
 }
 
@@ -217,7 +218,7 @@ body{
   border-radius: 6px;
   text-decoration: none;
 }
-
+.crm-button
 .title-text-small{
   font-size: 12px;
   color: #33475b;
@@ -281,7 +282,7 @@ body{
   line-height: 25px;
 }
 
-      /* CRM */
+      /* CRM LEFT*/
 
 .crm-container{
   width: 80%;
@@ -300,7 +301,7 @@ body{
   float: left;
   width: 35%;
   height: 300px;
-  background-color: green;
+  /* background-color: green; */
 
 }
 
@@ -308,11 +309,64 @@ body{
   float: right;
   width: 65%;
   height: 300px;
-  background-color: blue;
+  background-color: lightblue;
 }
 
 .crm-image img{
   /* display: inline;
   text-align: center; */
   padding: 30px 70px;
+}
+
+.crm-button {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.crm-button a{
+  background-color: #ff7a59;
+  padding: 15px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+/* CRM right */
+
+.crm-title{
+  padding-top: 35px;
+}
+
+.crm-title h3{
+  font-size: 22px;
+  color: #33475b;
+  padding-bottom: 15px;
+}
+
+.crm-title p,
+.crm-title li {
+  line-height: 20px;
+  color: #33475b;
+  font-size: 14px;
+  padding-bottom: 35px;
+
+}
+
+.crm-title h5{
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #33475b;
+  padding-bottom: 20px;
+}
+
+.crm-title li{
+  display: inline;
+  list-style: none;
+}
+
+.crm-title li{
+  padding: 0 5px;
+}
+
+.crm-title li .orange{
+  color: #ff7a59;
 }
