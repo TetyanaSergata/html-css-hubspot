@@ -374,7 +374,6 @@ body{
 /* Hub section */
 .hub-section{
 width: 80%;
-/* width: calc(100% / 3) */
 height: 650px;
 margin: 0 auto;
 background-color: lightgrey;
@@ -387,27 +386,29 @@ padding-top: 40px;
   clear:both;
 }
 
-.marketing-hub{
+.marketing-hub,
+.sales-hub,
+.service-hub{
   float: left;
-/* .sales-hub,
-.service-hub{ */
   height: 650px;
-  width: 33%;
-  width: 80%;
-  color: red;
+  width: 30%;
 }
 
 .sales-hub{
-  float: left;
-  width: 33%;
-  height: 650px;
-  width: 80%;
-
-
+  color: red;
+  padding: 0 5px;
+  /* float: left;
+  width: 30%;
+  height: 650px; */
 }
+
 .service-hub{
-  float: left;
-  width: 33%;
-  height: 650px;
-  width: 80%;
+  color: blue;
+  /* float: left;
+  width: 30%;
+  height: 650px; */
+}
+
+.marketing-hub{
+  color: brown;
 }
