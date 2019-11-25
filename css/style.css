@@ -237,17 +237,17 @@ body{
 
 .main-top{
   width: 100%;
-  height: 1000px;
-  /* background-color: #F5F8FA; */
+  height: 1550px;
+  background-color: #F5F8FA;
   margin: 0 auto;
   /* background-color: blue; */
 }
 
 .container-main{
   width: 65%;
-  height: 1400px;
+  height: 1550px;
   margin: 0 auto;
-  background-color: pink;
+  /* background-color: pink; */
 }
 
 /* .container-main .cubo{
@@ -260,7 +260,7 @@ body{
   width: 80%;
   height: 430px;
   margin: 0 auto;
-  background-color: red;
+  /* background-color: red; */
 }
 
 .cubo-box img{
@@ -288,6 +288,7 @@ body{
   width: 80%;
   height: 280px;
   margin: 0 auto;
+  background-color: white;
   /* background-color: green; */
 }
 
@@ -309,7 +310,7 @@ body{
   float: right;
   width: 65%;
   height: 280px;
-  background-color: lightblue;
+  /* background-color: lightblue; */
 }
 
 .crm-image img{
@@ -345,11 +346,9 @@ body{
 .crm-title p,
 .crm-title li,
 .hub-section p,
-.marketing-features li{
+.list-features li{
   color: #33475b;
   font-size: 14px;
-
-
 }
 
 .crm-title p,
@@ -377,16 +376,17 @@ body{
 }
 
 .crm-title li .orange,
-.marketing-features li .orange{
+/* .list-features li .orange */
+{
   color: #ff7a59;
 }
 
 /* Hub section */
 .hub-section{
 width: 80%;
-height: 650px;
+height: 720px;
 margin: 0 auto;
-background-color: lightgrey;
+/* background-color: lightgrey; */
 padding-top: 40px;
 }
 
@@ -400,22 +400,24 @@ padding-top: 40px;
   font-size: 20px;
   text-align: center;
 }
-.hub-section p{
 
+.hub-section p{
 }
 
-.marketing-hub,
-.sales-hub,
-.service-hub{
+.box-hub,
+.box-hub-middle
+/* .sales-hub,
+.service-hub */
+{
   float: left;
-  height: 650px;
+  height: 680px;
   width: 30%;
   margin: 0 auto;
   background-color: white;
-  padding: 15px;
+  padding: 20px;
 }
 
-.sales-hub{
+.box-hub-middle{
   margin: 0 5%;
   /* float: left;
   width: 30%;
@@ -428,48 +430,83 @@ padding-top: 40px;
   height: 650px; */
 }
 
-.marketing-hub h3,
-.sales-hub h3,
-.service-hub h3{
+.box-hub h3,
+.box-hub-middle h3
+/* .sales-hub h3,
+.service-hub h3 */
+{
   padding-bottom: 15px;
 }
 
-.marketing-hub img,
-.sales-hub img,
-.service-hub img{
+.box-hub img,
+.box-hub-middle img
+/* .sales-hub img,
+.service-hub img */
+{
   padding: 20px 15px;
   height: 200px;
 }
 
 
-.marketing-hub p,
-.sales-hub p{
+.box-hub p,
+.box-hub-middle p
+/* .sales-hub p{ */{
   padding-bottom: 55px;
 }
 
-.marketing-features,
-.sales-features,
-.service-features{
-  height: 230px;
+.box-hub.right p{
+  padding-bottom: 37px;
+}
+
+.list-features
+/* .sales-features,
+.service-features */
+{
+  height: 170px;
   border-top: 1px solid lightgrey;
   padding: 30px 0;
 }
 
-.marketing-features h5,
-.sales-features h5,
-.service-features h5{
+.list-features h5
+/* .sales-features h5,
+.service-features h5 */
+{
   text-align: center;
 
 }
 
-.marketing-features ul,
-.sales-features ul,
-.service-features ul{
+.list-features ul
+/* .sales-features ul,
+.service-features ul */
+{
   list-style: none;
 }
 
-.marketing-features li,
-.sales-features li,
-.service-features li{
+.list-features li
+/* .sales-features li,
+.service-features li */
+{
   line-height: 28px;
+
+}
+
+.box-hub li .orange{
+  color: #ff7a59;
+}
+
+   /* Info box */
+
+.info-box{
+  height: 700px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: lightblue;
+}
+
+.info-container{
+  height: 700px;
+  width: 70%;
+  margin: 0 auto;
+  background-color: pink;
+
 }
