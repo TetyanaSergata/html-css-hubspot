@@ -619,7 +619,7 @@ padding-top: 40px;
   width: 65%;
   height: 200px;
   margin: 0 auto;
-  background-color: lightgreen;
+  /* background-color: lightgreen; */
 }
 
 .logo-container::after{
@@ -632,7 +632,7 @@ padding-top: 40px;
   float: left;
   height: 200px;
   width: 30%;
-  background-color: lightblue;
+  /* background-color: lightblue; */
   text-align: left;
   padding: 15px;
 }
@@ -657,22 +657,39 @@ padding-top: 40px;
 }
 
 /* Logos */
-.logos-top{
+.logos-top,
+.logos-bottom{
   height: 100px;
   /* background-color: lightgrey; */
 }
 
 
-.logos-top .logo{
+.logos-top .logo,
+.logos-bottom .logo{
   display: inline-block;
   padding: 30px 20px;
 }
 
-.logos-top img{
+.logos-top img,
+.logos-bottom img{
   height: 20px;
 }
 
 .logo.crowd img,
 .logo.purple img{
   height: 30px;
+}
+
+.logo.subaru img{
+  height: 50px;
+}
+
+.logo.wistia img,
+.logo.vmware img{
+  height: 40px;
+  padding-bottom: 20px;
+}
+
+.logo.classpass img{
+  height: 60px;
 }
