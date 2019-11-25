@@ -477,7 +477,7 @@ padding-top: 40px;
 
 }
 
-.box-hub li .orange{
+.orange{
   color: #ff7a59;
 }
 
@@ -572,8 +572,9 @@ padding-top: 40px;
 }
 .content{
   position: absolute;
-  top: 30%;
-  left: 20%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   padding: 10px;
   /* padding-bottom: 40px; */
 }
@@ -692,4 +693,13 @@ padding-top: 40px;
 
 .logo.classpass img{
   height: 60px;
+}
+
+/* Main bottom */
+
+.main-bottom{
+  height: 500px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: pink;
 }
