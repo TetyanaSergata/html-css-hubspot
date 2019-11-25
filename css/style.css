@@ -498,7 +498,7 @@ padding-top: 40px;
    /* Info box */
 
 .info-box{
-  height: 700px;
+  height: 900px;
   width: 100%;
   margin: 0 auto;
   background-color: #00ABB5;
@@ -506,7 +506,7 @@ padding-top: 40px;
 }
 
 .info-container{
-  height: 700px;
+  height: 900px;
   width: 70%;
   margin: 0 auto;
   background-color: pink;
@@ -533,4 +533,86 @@ padding-top: 40px;
 .info-top p {
   text-align: center;
   font-size: 14px;
+}
+
+.box-list{
+  height: 600px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: lightgreen;
+}
+
+.info-top-list,
+.info-bottom-list{
+  height: 250px;
+  background-color: white;
+}
+
+.info-top-list::after{
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+.info-bottom-list::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.info-top-list .box-small{
+  border-bottom: 1px solid white;
+}
+
+.info-bottom-list .box-small,
+.info-top-list .box-small{
+  border-right: 1px solid white;
+}
+
+.info-top-list: last-child .box-small{
+  border-right: none;
+}
+
+.box-small{
+  position: relative;
+  float: left;
+  height: 250px;
+  width: 25%;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  /* padding: 40px; */
+}
+.content{
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  /* top: 50%;
+  right: 50%; */
+  /* text-align: center; */
+  padding: 10px;
+  /* padding-bottom: 40px; */
+}
+
+.box-small h2{
+  font-size: 40px;
+}
+
+.box-small i{
+  font-size: 40px;
+}
+
+.box-small span{
+  font-size: 15px;
+  vertical-align: middle;
+}
+
+.box-small h2{
+  padding: 5px 0;
+}
+
+.content h5{
+  text-align: center;
+  font-size: 15px;
 }
